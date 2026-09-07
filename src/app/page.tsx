@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ArrowRight, CalendarClock, Crosshair, ExternalLink, Layers, Rocket, ShieldCheck, Users } from "lucide-react";
+import { ArrowRight, CalendarClock, Crosshair, ExternalLink, Layers, Rocket, ShieldCheck, Sparkles, Users } from "lucide-react";
 import JsonLd from "@/components/JsonLd";
 import { homeFaqs } from "@/data/pages";
 import { site } from "@/data/site";
@@ -23,18 +23,17 @@ export default function HomePage() {
       <section className="hero-home">
         <div className="hero-shade" />
         <div className="page-shell hero-content">
-          <div className="max-w-4xl">
-            <p className="hero-eyebrow">Unofficial tracker / Verified {site.lastChecked}</p>
-            <h1>Prime Heroes</h1>
-            <p className="hero-copy">
-              SuperGaming&apos;s Roblox-exclusive team hero shooter enters early access in October 2026 with six heroes
-              and five abilities each. This wiki tracks only verified facts now, and switches to full ability guides the
-              moment the game is playable.
-            </p>
-            <div className="mt-7 flex flex-wrap gap-3">
-              <Link href="/heroes/" className="btn-primary"><Users className="h-4 w-4" />Explore the roster</Link>
-              <a href={site.officialNewsUrl} target="_blank" rel="noopener noreferrer" className="btn-hero-secondary"><Rocket className="h-4 w-4" />Official reveal</a>
-            </div>
+          <span className="hero-badge"><Sparkles className="h-4 w-4" />Official 2026 Fall Lineup · Revealed Sep 04</span>
+          <h1><span className="hero-title-gradient">Prime Heroes</span></h1>
+          <p className="hero-copy">
+            SuperGaming&apos;s Roblox-exclusive team hero shooter enters early access in October 2026
+            with six heroes and five abilities each. This wiki tracks only verified facts now, and
+            switches to full ability guides the moment the game is playable.
+          </p>
+          <div className="mt-8 flex flex-wrap justify-center gap-3">
+            <Link href="/heroes/" className="btn-primary"><Users className="h-4 w-4" />Explore the roster</Link>
+            <Link href="/release-date/" className="btn-hero-secondary"><CalendarClock className="h-4 w-4" />Release tracker</Link>
+            <a href={site.officialNewsUrl} target="_blank" rel="noopener noreferrer" className="btn-hero-secondary"><Rocket className="h-4 w-4" />Official reveal</a>
           </div>
         </div>
       </section>

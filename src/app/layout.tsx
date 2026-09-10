@@ -34,7 +34,6 @@ export const metadata: Metadata = {
     "SuperGaming Prime Heroes",
     "Roblox hero shooter",
   ],
-  alternates: { canonical: "/" },
   openGraph: {
     type: "website",
     url: "/",

@@ -347,7 +347,7 @@ const generalPages: GuidePage[] = [
       {
         heading: "Analytics and ads",
         paragraphs: [
-          "If analytics, advertising, or consent tools are enabled, this policy and any required consent controls will be updated before those services are used.",
+          "We comply with COPPA child privacy standards. No personal information is collected from players under 13. Direct questions can be sent to contact@robloxwikihub.com.",
         ],
       },
     ],

@@ -31,6 +31,4 @@ export const routes = [
   { path: "/prime-universe/", priority: 0.85, changeFrequency: "weekly" },
   { path: "/news/", priority: 0.8, changeFrequency: "daily" },
   { path: "/about/", priority: 0.35, changeFrequency: "monthly" },
-  { path: "/privacy-policy/", priority: 0.2, changeFrequency: "yearly" },
-  { path: "/terms/", priority: 0.2, changeFrequency: "yearly" },
-] as const;
+  ] as const;

@@ -347,7 +347,7 @@ const generalPages: GuidePage[] = [
       {
         heading: "Analytics and ads",
         paragraphs: [
-          "We comply with COPPA child privacy standards. No personal information is collected from players under 13. Direct questions can be sent to contact@robloxwikihub.com.",
+          "We comply with COPPA child privacy standards. No personal information is collected from players under 13. Direct questions can be sent to lianlele168@gmail.com.",
         ],
       },
     ],

@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
+import AuthorCard from "@/components/AuthorCard";
 import { ArrowRight, CalendarClock, Crosshair, ExternalLink, Layers, Rocket, ShieldCheck, Sparkles, Users } from "lucide-react";
 import JsonLd from "@/components/JsonLd";
 import { homeFaqs } from "@/data/pages";
@@ -46,6 +48,40 @@ export default function HomePage() {
           <div><strong>Roblox</strong><span>exclusive platform</span></div>
         </div>
       </section>
+
+      {/* E-E-A-T AUTHOR VERIFICATION */}
+      <div className="page-shell pt-8">
+        <AuthorCard />
+
+        {/* VISUAL GAMEPLAY SHOWCASE */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-8">
+          <div className="rounded-2xl overflow-hidden border border-indigo-900/60 bg-indigo-950/40 p-4">
+            <Image
+              src="/images/prime-header.webp"
+              alt="Prime Heroes Official Key Artwork"
+              width={1014}
+              height={640}
+              className="rounded-xl object-cover w-full h-56 border border-indigo-800/40"
+              priority
+            />
+            <p className="text-xs text-indigo-300 mt-2.5 text-center font-medium">
+              Figure 1: Official Prime Heroes Showcase by SuperGaming.
+            </p>
+          </div>
+          <div className="rounded-2xl overflow-hidden border border-indigo-900/60 bg-indigo-950/40 p-4">
+            <Image
+              src="/images/prime-gameplay.webp"
+              alt="Prime Heroes Combat Arena"
+              width={768}
+              height={432}
+              className="rounded-xl object-cover w-full h-56 border border-indigo-800/40"
+            />
+            <p className="text-xs text-indigo-300 mt-2.5 text-center font-medium">
+              Figure 2: Combat Arena Action with ability rotations and tactical gunplay.
+            </p>
+          </div>
+        </div>
+      </div>
 
       <section className="page-section">
         <div className="page-shell">

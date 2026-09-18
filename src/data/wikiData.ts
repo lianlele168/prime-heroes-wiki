@@ -143,10 +143,10 @@ export const WEAPONS_GEAR_DATA: PrimeWeapon[] = [
 ];
 
 export const PROMO_CODES_DATA: PrimeCode[] = [
-  { id: 'code-early2026', code: 'PRIME2026', reward: 'Free Sir Jadhav Champion Skin + 500 Credits', status: 'ACTIVE', dateAdded: '2026-09-05' },
-  { id: 'code-supergaming', code: 'SUPERGAMING', reward: 'Indus Founder Gun Charm + 250 Coins', status: 'ACTIVE', dateAdded: '2026-09-04' },
-  { id: 'code-fallpreview', code: 'FALLPREVIEW', reward: '2x EXP Booster (1h)', status: 'ACTIVE', dateAdded: '2026-09-03' },
-  { id: 'code-heroesshooter', code: 'HEROESLAUNCH', reward: 'Rare Weapon Crate Token', status: 'ACTIVE', dateAdded: '2026-09-02' },
-  { id: 'code-miraexclusive', code: 'MIRAPHASE', reward: 'Phase Walker Avatar Frame', status: 'ACTIVE', dateAdded: '2026-09-01' },
-  { id: 'code-crownsite', code: 'CROWNSITE', reward: '100 Weapon Scrap Parts', status: 'ACTIVE', dateAdded: '2026-08-30' }
+  { id: 'code-early2026', code: 'PRIME2026', reward: 'Free Sir Jadhav Champion Skin + 500 Credits', status: 'ACTIVE', dateAdded: '' },
+  { id: 'code-supergaming', code: 'SUPERGAMING', reward: 'Indus Founder Gun Charm + 250 Coins', status: 'ACTIVE', dateAdded: '' },
+  { id: 'code-fallpreview', code: 'FALLPREVIEW', reward: '2x EXP Booster (1h)', status: 'ACTIVE', dateAdded: '' },
+  { id: 'code-heroesshooter', code: 'HEROESLAUNCH', reward: 'Rare Weapon Crate Token', status: 'ACTIVE', dateAdded: '' },
+  { id: 'code-miraexclusive', code: 'MIRAPHASE', reward: 'Phase Walker Avatar Frame', status: 'ACTIVE', dateAdded: '' },
+  { id: 'code-crownsite', code: 'CROWNSITE', reward: '100 Weapon Scrap Parts', status: 'ACTIVE', dateAdded: '' }
 ];

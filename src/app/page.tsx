@@ -11,7 +11,7 @@ import { faqSchema, videoGameSchema, websiteSchema } from "@/lib/seo";
 export const metadata: Metadata = { alternates: { canonical: "/" } };
 
 const intentCards = [
-  { href: "/release-date/", title: "Release tracker", detail: "October 2026 early access window, every confirmed date", icon: CalendarClock, tone: "lilac" },
+  { href: "/release-date/", title: "Release tracker", detail: " early access window, every confirmed date", icon: CalendarClock, tone: "lilac" },
   { href: "/heroes/", title: "Roster explorer", detail: "Six launch heroes, five abilities each", icon: Users, tone: "mint" },
   { href: "/what-is-prime-heroes/", title: "What is Prime Heroes", detail: "Verified gameplay structure and studio facts", icon: Crosshair, tone: "apricot" },
   { href: "/prime-universe/", title: "Prime universe", detail: "The Indus connection and shared lore", icon: Layers, tone: "mint" },
@@ -28,7 +28,7 @@ export default function HomePage() {
           <span className="hero-badge"><Sparkles className="h-4 w-4" />Official 2026 Fall Lineup · Revealed Sep 04</span>
           <h1><span className="hero-title-gradient">Prime Heroes</span></h1>
           <p className="hero-copy">
-            SuperGaming&apos;s Roblox-exclusive team hero shooter enters early access in October 2026
+            SuperGaming&apos;s Roblox-exclusive team hero shooter enters early access in 
             with six heroes and five abilities each. This wiki tracks only verified facts now, and
             switches to full ability guides the moment the game is playable.
           </p>
@@ -42,7 +42,7 @@ export default function HomePage() {
 
       <section className="fact-strip" aria-label="Verified launch facts">
         <div className="page-shell fact-grid">
-          <div><strong>Oct 2026</strong><span>early access window</span></div>
+          <div><strong></strong><span>early access window</span></div>
           <div><strong>6</strong><span>launch heroes</span></div>
           <div><strong>5</strong><span>abilities per hero</span></div>
           <div><strong>Roblox</strong><span>exclusive platform</span></div>

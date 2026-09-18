@@ -20,12 +20,12 @@ export const homeFaqs = [
   {
     question: "What is Prime Heroes?",
     answer:
-      "Prime Heroes is a Roblox-exclusive team hero shooter by SuperGaming, the studio behind Indus Battle Royale. It is set in SuperGaming's Prime universe and was revealed in Roblox's official Fall Games Preview in September 2026.",
+      "Prime Heroes is a Roblox-exclusive team hero shooter by SuperGaming, the studio behind Indus Battle Royale. It is set in SuperGaming's Prime universe and was revealed in Roblox's official Fall Games Preview in .",
   },
   {
     question: "When does Prime Heroes launch?",
     answer:
-      "Early access is slated for October 2026 according to Roblox's Fall Games Preview coverage. The exact day has not been announced yet.",
+      "Early access is slated for according to Roblox's Fall Games Preview coverage. The exact day has not been announced yet.",
   },
   {
     question: "How many heroes will Prime Heroes launch with?",
@@ -100,23 +100,23 @@ const generalPages: GuidePage[] = [
     title: "Prime Heroes Release Date",
     eyebrow: "Early access window tracker",
     description:
-      "Track the Prime Heroes Roblox release: October 2026 early access window, the September 4 announcement event, and every officially confirmed date so far.",
+      "Track the Prime Heroes Roblox release: early access window, the September 4 announcement event, and every officially confirmed date so far.",
     summary:
-      "Prime Heroes enters early access in October 2026 per Roblox's official Fall Games Preview. No exact launch day has been announced yet. This page tracks every confirmed date and updates the moment a day is locked.",
+      "Prime Heroes enters early access in per Roblox's official Fall Games Preview. No exact launch day has been announced yet. This page tracks every confirmed date and updates the moment a day is locked.",
     sections: [
       {
         heading: "Date timeline",
         steps: [
           {
-            title: "September 4, 2026 - announcement",
+            title: " - announcement",
             body: "Roblox previewed its fall lineup, revealing ten upcoming games including Prime Heroes. Coverage by IGN India and others confirmed SuperGaming's hero shooter for the platform.",
           },
           {
-            title: "September 2026 - Fall Games Preview live",
+            title: " - Fall Games Preview live",
             body: "Roblox's newsroom Fall Games Preview lists Prime Heroes among the season's upcoming exclusive titles.",
           },
           {
-            title: "October 2026 - early access window",
+            title: " - early access window",
             body: "Coverage of the announcement states Prime Heroes enters early access in October with six playable heroes. An exact day has not been published.",
           },
         ],
@@ -142,7 +142,7 @@ const generalPages: GuidePage[] = [
       {
         question: "Is there an exact Prime Heroes release date?",
         answer:
-          "No. Only the October 2026 early access window is confirmed. Announcements will update this page within a day of going public.",
+          "No. Only the early access window is confirmed. Announcements will update this page within a day of going public.",
       },
       {
         question: "Can I play Prime Heroes right now?",
@@ -185,7 +185,7 @@ const generalPages: GuidePage[] = [
       {
         question: "Have any hero names been revealed?",
         answer:
-          "Not yet as of September 6, 2026. The confirmed facts are six launch heroes with five abilities each.",
+          "Not yet as of . The confirmed facts are six launch heroes with five abilities each.",
       },
       {
         question: "When will the roster page update?",
@@ -247,12 +247,12 @@ const generalPages: GuidePage[] = [
         heading: "Confirmed so far",
         steps: [
           {
-            title: "September 4, 2026 - Prime Heroes revealed",
+            title: " - Prime Heroes revealed",
             body: "Roblox's Fall Games Preview event revealed ten upcoming games including Prime Heroes, a team hero shooter from SuperGaming. Sources: Roblox Newsroom, IGN India.",
           },
           {
-            title: "Early September 2026 - launch structure reported",
-            body: "Press coverage confirmed early access plans: October 2026 window, six playable heroes at the start, five special abilities per hero, and gun and loot collection during matches. Source: BloxInformer, Digital Reviews, Sportskeeda coverage.",
+            title: "Early - launch structure reported",
+            body: "Press coverage confirmed early access plans: window, six playable heroes at the start, five special abilities per hero, and gun and loot collection during matches. Source: BloxInformer, Digital Reviews, Sportskeeda coverage.",
           },
         ],
       },

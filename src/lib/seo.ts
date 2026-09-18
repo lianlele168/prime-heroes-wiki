@@ -26,7 +26,7 @@ export function videoGameSchema() {
     name: site.gameName,
     url: site.officialNewsUrl,
     description:
-      "A Roblox-exclusive team hero shooter by SuperGaming set in the Prime universe, entering early access in October 2026 with six playable heroes.",
+      "A Roblox-exclusive team hero shooter by SuperGaming set in the Prime universe, entering early access in with six playable heroes.",
     applicationCategory: "Game",
     gamePlatform: ["Roblox"],
     genre: ["Hero Shooter", "First-Person Shooter", "Team-Based"],
@@ -69,7 +69,7 @@ export function articleSchema(title: string, description: string, slug: string) 
     description,
     mainEntityOfPage: absoluteUrl(slug),
     datePublished: site.published,
-    dateModified: site.lastChecked,
+
     author: { "@type": "Organization", name: site.name },
     publisher: { "@type": "Organization", name: site.name },
   };

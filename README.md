@@ -6,7 +6,7 @@ Unofficial pre-launch tracker for **Prime Heroes** (Roblox-exclusive team hero s
 
 - `/` home hub with verified fact strip
 - `/what-is-prime-heroes/` confirmed gameplay structure
-- `/release-date/` October 2026 early access timeline
+- `/release-date/` early access timeline
 - `/heroes/` interactive roster explorer (6 slots x 5 ability slots)
 - `/prime-universe/` SuperGaming / Indus shared-universe context
 - `/news/` verification log with sources

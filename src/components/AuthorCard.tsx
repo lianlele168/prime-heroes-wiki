@@ -16,25 +16,21 @@ export default function AuthorCard() {
                 <ShieldCheck className="w-3 h-3" /> Verified by lianlele168</span>
             </div>
             <p className="text-xs text-indigo-300">
-              SuperGaming Prime Universe Analyst & Competitive Hero Shooter Specialist
+              Independent tracker — not affiliated with SuperGaming or Roblox
             </p>
           </div>
         </div>
 
         <div className="flex flex-wrap items-center gap-3 text-xs text-indigo-300">
           <div className="flex items-center gap-1 bg-indigo-900/50 px-2.5 py-1 rounded-lg border border-indigo-800/40">
-            <Calendar className="w-3.5 h-3.5 text-indigo-400" />
-            <span>Updated: </span>
-          </div>
-          <div className="flex items-center gap-1 bg-indigo-900/50 px-2.5 py-1 rounded-lg border border-indigo-800/40">
             <UserCheck className="w-3.5 h-3.5 text-purple-400" />
-            <span>Verified for Fall Preview Launch</span>
+            <span>Pre-launch: only announced facts</span>
           </div>
         </div>
       </div>
 
       <p className="text-xs text-indigo-400/80 mt-3 pt-3 border-t border-indigo-900/40 leading-relaxed">
-        <strong>Review Methodology:</strong> Hero kit specifications, ability cooldown mechanics, and weapon DPS metrics are cross-referenced directly with SuperGaming developer statements and verified Roblox preview footage.
+        <strong>Review Methodology:</strong> Prime Heroes has not opened to players yet, so there is no gameplay to measure. Everything on this site is limited to what SuperGaming and Roblox have publicly announced — studio, platform, and the six-hero launch structure. Hero names, ability kits, weapon stats and DPS figures are <strong>not published anywhere</strong>, so we do not publish them either; any other site quoting them before launch is guessing. Figures appear here only once they can be traced to an official source.
        Follows <a href="https://robloxwikihub.com/about#methodology" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">Editorial Standards</a>. Report corrections to <a href="mailto:lianlele168@gmail.com" className="underline hover:text-white">lianlele168@gmail.com</a>.</p>
     </div>
   );

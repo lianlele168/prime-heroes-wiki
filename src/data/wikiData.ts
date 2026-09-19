@@ -142,11 +142,5 @@ export const WEAPONS_GEAR_DATA: PrimeWeapon[] = [
   { id: 'plasma-bow-energy', name: 'Solaris Energy Bow', category: 'Sniper', damage: 95, fireRate: 60, magazineSize: 1, effectiveRange: 'Long' }
 ];
 
-export const PROMO_CODES_DATA: PrimeCode[] = [
-  { id: 'code-early2026', code: 'PRIME2026', reward: 'Free Sir Jadhav Champion Skin + 500 Credits', status: 'ACTIVE', dateAdded: '' },
-  { id: 'code-supergaming', code: 'SUPERGAMING', reward: 'Indus Founder Gun Charm + 250 Coins', status: 'ACTIVE', dateAdded: '' },
-  { id: 'code-fallpreview', code: 'FALLPREVIEW', reward: '2x EXP Booster (1h)', status: 'ACTIVE', dateAdded: '' },
-  { id: 'code-heroesshooter', code: 'HEROESLAUNCH', reward: 'Rare Weapon Crate Token', status: 'ACTIVE', dateAdded: '' },
-  { id: 'code-miraexclusive', code: 'MIRAPHASE', reward: 'Phase Walker Avatar Frame', status: 'ACTIVE', dateAdded: '' },
-  { id: 'code-crownsite', code: 'CROWNSITE', reward: '100 Weapon Scrap Parts', status: 'ACTIVE', dateAdded: '' }
-];
+// No codes exist yet: the game launches in early access in October 2026.
+export const PROMO_CODES_DATA: PrimeCode[] = [];

@@ -105,7 +105,7 @@ export default async function GuidePageRoute({ params }: GuideRouteProps) {
           </article>
 
           <aside className="article-aside">
-            <div><p className="eyebrow">Facts verified</p><strong>{site.lastChecked}</strong><p>Everything on this page traces to official announcements or reputable press coverage from the reveal window.</p></div>
+            <div><p className="eyebrow">Facts verified</p><strong>Official sources</strong><p>Everything on this page traces to official announcements or reputable press coverage from the reveal window.</p></div>
             <div><p className="eyebrow">Continue</p><nav>{related.map((item) => <Link key={item.slug} href={`/${item.slug}/`}>{item.title}<ArrowRight className="h-4 w-4" /></Link>)}</nav></div>
           </aside>
         </div>

@@ -13,7 +13,7 @@ export const metadata: Metadata = { alternates: { canonical: "/" } };
 const intentCards = [
   { href: "/release-date/", title: "Release tracker", detail: " early access window, every confirmed date", icon: CalendarClock, tone: "lilac" },
   { href: "/heroes/", title: "Roster explorer", detail: "Six launch heroes, five abilities each", icon: Users, tone: "mint" },
-  { href: "/what-is-prime-heroes/", title: "What is Prime Heroes", detail: "Verified gameplay structure and studio facts", icon: Crosshair, tone: "apricot" },
+  { href: "/what-is-prime-heroes/", title: "What is Prime Heroes", detail: "gameplay structure and studio facts", icon: Crosshair, tone: "apricot" },
   { href: "/prime-universe/", title: "Prime universe", detail: "The Indus connection and shared lore", icon: Layers, tone: "mint" },
 ] as const;
 
@@ -40,7 +40,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="fact-strip" aria-label="Verified launch facts">
+      <section className="fact-strip" aria-label="launch facts">
         <div className="page-shell fact-grid">
           <div><strong></strong><span>early access window</span></div>
           <div><strong>6</strong><span>launch heroes</span></div>
